@@ -1,47 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Imran Ashraf - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="hero">
+        <div class="container">
+            <img src="/uploads/avatar.jpg" alt="Muhammad Imran Ashraf" class="profile-picture">
+            <h1>Muhammad Imran Ashraf</h1>
+            <p class="subtitle">Mechatronics and Control Engineer</p>
+            <a href="/uploads/CV.pdf" class="btn-download" download>Download CV</a>
+        </div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I'm [Your Name], a [Your Profession]. I specialize in [Your Skills].</p>
-  </section>
+    <main class="content">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate Mechatronics and Control Engineer specializing in embedded systems, system monitoring, and innovative solutions. My expertise spans various programming languages, protocols, and tools to deliver impactful projects and systems.
+            </p>
+        </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Description of your project. <a href="https://github.com/your-repo" target="_blank">View on GitHub</a></p>
-    </div>
-    <div class="project">
-      <h3>Project 2</h3>
-      <p>Description of your project. <a href="https://github.com/your-repo" target="_blank">View on GitHub</a></p>
-    </div>
-  </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>BSc in Mechatronics and Control Engineering</strong>, UET Lahore, Faisalabad (2019-2023) - CGPA: 3.83</li>
+                <li><strong>FSc Pre-Engineering</strong>, Govt. Post Graduate College of Science (2017-2019) - Marks: 91%</li>
+                <li><strong>Matriculation</strong>, Govt. M.C. High School Millat Colony (2015-2017) - Marks: 91.4%</li>
+            </ul>
+        </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-  </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>System Engineer</strong>, HoboeTech Pvt Limited (Dec 2023 – Present)
+                    <ul>
+                        <li>Linux (Debian, Proxmox)</li>
+                        <li>LAMP, Grafana Monitoring, MQTT, HTTP Protocols</li>
+                        <li>Python, Bash, PHP</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Embedded Engineer</strong>, Dysol Pvt Lahore (Oct 2023 – Dec 2023)
+                    <ul>
+                        <li>Esp32, Arduino, CAD/CAM, MQTT, I2C Protocols</li>
+                        <li>GSM Module, OTA Updates</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Embedded Engineer</strong>, Innovation Lab Faisalabad (June 2023 – Sep 2023)
+                    <ul>
+                        <li>Energy Monitoring, Esp32, MQTT, TLS</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-  <footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
-  </footer>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Air Quality Monitoring System</li>
+                <li>3-Phase Energy Monitoring with RS485</li>
+                <li>EEG-Based Identification of Lower Limb Activities</li>
+                <li>Persistence of Vision (POV) Display</li>
+                <li>7-Segment Display with LE Bluetooth</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Microcontrollers Programming (Esp32, Arduino, PIC18452)</li>
+                <li>Linux Administration, LAMP Stack, Proxmox Expert</li>
+                <li>CAD/CAM (Fusion 360, SolidWorks, AutoCAD)</li>
+                <li>Programming Languages: C++, C#, Python, Assembly Language</li>
+                <li>Grafana Monitoring Expert</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact: <a href="mailto:2019mc251@student.uet.edu.pk">2019mc251@student.uet.edu.pk</a> | Phone: +92-303-8413937</p>
+            <p>&copy; 2024 Muhammad Imran Ashraf. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
