@@ -130,6 +130,11 @@ ul li:hover {
     background: #424242; /* Slightly lighter background on hover */
 }
 
+/* Embedded Engineer Text Size */
+.experience li strong {
+    font-size: 1.5rem; /* Increase the font size for the 'Embedded Engineer' title */
+}
+
 /* Footer */
 footer {
     background: #212121; /* Dark footer */
