@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #e5e5e5; /* Light text color on dark background */
-    background: #212121; /* Dark background */
+    background: #2e3b4e; /* Cool dark blue */
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #2a2a2a, #424242); /* Dark industrial gradient */
+    background: linear-gradient(135deg, #3e4a59, #4c5a6a); /* Cool gradient */
     color: #e5e5e5;
     text-align: center;
     padding: 3rem 1rem; /* Adjusted padding */
@@ -39,7 +39,7 @@ a {
     width: 100%;
     height: 100%;
     background: url('/uploads/background.jpg') center/cover no-repeat;
-    opacity: 0.3; /* Darker overlay for a technical feel */
+    opacity: 0.3; /* Darker overlay for a cooler, tech-like feel */
     z-index: -1;
 }
 
@@ -48,7 +48,7 @@ a {
     height: 150px;
     border-radius: 50%;
     margin: 1rem auto;
-    border: 4px solid #00c853; /* Green for tech-like feel */
+    border: 4px solid #00bcd4; /* Light cyan for cool tech feel */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -56,19 +56,19 @@ h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #00c853; /* Tech green */
+    color: #00bcd4; /* Cyan for a cool accent */
 }
 
 .subtitle {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #bdbdbd; /* Light gray subtitle */
+    color: #b0bec5; /* Light grayish-blue subtitle */
 }
 
 .btn-download {
     display: inline-block;
     color: white;
-    background: #00796b; /* Teal button background */
+    background: #0277bd; /* Blue button background */
     padding: 0.7rem 1.5rem;
     font-size: 1rem;
     border-radius: 30px;
@@ -78,14 +78,14 @@ h1 {
 }
 
 .btn-download:hover {
-    background: #004d40; /* Darker teal on hover */
+    background: #01579b; /* Darker blue on hover */
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Main Content */
 main {
-    background: #424242; /* Dark background for content */
+    background: #3b4a63; /* Cool dark blue for content */
     padding: 3rem 0;
     box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -96,9 +96,9 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: #00c853; /* Green section header */
+    color: #00bcd4; /* Cyan section header */
     margin-bottom: 1.5rem;
-    border-bottom: 3px solid #00c853; /* Green underline */
+    border-bottom: 3px solid #00bcd4; /* Cyan underline */
     display: inline-block;
     padding-bottom: 0.5rem;
 }
@@ -116,10 +116,10 @@ ul {
 }
 
 ul li {
-    background: #333333; /* Dark background for list items */
+    background: #37474f; /* Cool, dark slate blue for list items */
     margin-bottom: 1rem;
     padding: 1.5rem;
-    border-left: 5px solid #00796b; /* Teal left border */
+    border-left: 5px solid #0288d1; /* Light blue left border */
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
@@ -127,7 +127,7 @@ ul li {
 
 ul li:hover {
     transform: translateX(10px);
-    background: #424242; /* Slightly lighter background on hover */
+    background: #455a64; /* Slightly lighter background on hover */
 }
 
 /* Embedded Engineer Text Size */
@@ -137,7 +137,7 @@ ul li:hover {
 
 /* Footer */
 footer {
-    background: #212121; /* Dark footer */
+    background: #263238; /* Darker cool tone for footer */
     color: white;
     text-align: center;
     padding: 1.5rem 0;
@@ -146,13 +146,13 @@ footer {
 }
 
 footer a {
-    color: #00c853; /* Tech green for footer links */
+    color: #00bcd4; /* Cyan for footer links */
     font-weight: 600;
     transition: color 0.3s ease-in-out;
 }
 
 footer a:hover {
-    color: #00796b; /* Darker green on hover */
+    color: #0277bd; /* Darker blue on hover */
 }
 
 /* Responsive Design */
