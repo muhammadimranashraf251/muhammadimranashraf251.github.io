@@ -4,8 +4,8 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    color: #333;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #e5e5e5; /* Light text color on dark background */
+    background: #212121; /* Dark background */
 }
 
 a {
@@ -22,10 +22,10 @@ a {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #003d80, #001f40);
-    color: white;
+    background: linear-gradient(135deg, #2a2a2a, #424242); /* Dark industrial gradient */
+    color: #e5e5e5;
     text-align: center;
-    padding: 2rem 1rem; /* Reduced padding */
+    padding: 3rem 1rem; /* Adjusted padding */
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -39,35 +39,36 @@ a {
     width: 100%;
     height: 100%;
     background: url('/uploads/background.jpg') center/cover no-repeat;
-    opacity: 0.2; /* Slightly darker overlay */
+    opacity: 0.3; /* Darker overlay for a technical feel */
     z-index: -1;
 }
 
 .profile-picture {
-    width: 150px; /* Reduced size */
+    width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 0.5rem auto; /* Reduced margin */
-    border: 4px solid white; /* Slightly smaller border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adjusted shadow */
+    margin: 1rem auto;
+    border: 4px solid #00c853; /* Green for tech-like feel */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     font-weight: 700;
+    color: #00c853; /* Tech green */
 }
 
 .subtitle {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #e0e0e0;
+    color: #bdbdbd; /* Light gray subtitle */
 }
 
 .btn-download {
     display: inline-block;
     color: white;
-    background: #28a745;
+    background: #00796b; /* Teal button background */
     padding: 0.7rem 1.5rem;
     font-size: 1rem;
     border-radius: 30px;
@@ -77,14 +78,14 @@ h1 {
 }
 
 .btn-download:hover {
-    background: #218838;
+    background: #004d40; /* Darker teal on hover */
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Main Content */
 main {
-    background: white;
+    background: #424242; /* Dark background for content */
     padding: 3rem 0;
     box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -95,9 +96,9 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: #0056b3;
+    color: #00c853; /* Green section header */
     margin-bottom: 1.5rem;
-    border-bottom: 3px solid #0056b3;
+    border-bottom: 3px solid #00c853; /* Green underline */
     display: inline-block;
     padding-bottom: 0.5rem;
 }
@@ -105,7 +106,7 @@ h2 {
 p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #555;
+    color: #e5e5e5; /* Light text for readability */
 }
 
 /* List Styles */
@@ -115,10 +116,10 @@ ul {
 }
 
 ul li {
-    background: #f8f9fa;
+    background: #333333; /* Dark background for list items */
     margin-bottom: 1rem;
     padding: 1.5rem;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid #00796b; /* Teal left border */
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
@@ -126,12 +127,12 @@ ul li {
 
 ul li:hover {
     transform: translateX(10px);
-    background: #e9ecef;
+    background: #424242; /* Slightly lighter background on hover */
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #212121; /* Dark footer */
     color: white;
     text-align: center;
     padding: 1.5rem 0;
@@ -140,19 +141,19 @@ footer {
 }
 
 footer a {
-    color: #007bff;
+    color: #00c853; /* Tech green for footer links */
     font-weight: 600;
     transition: color 0.3s ease-in-out;
 }
 
 footer a:hover {
-    color: #0056b3;
+    color: #00796b; /* Darker green on hover */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     h2 {
