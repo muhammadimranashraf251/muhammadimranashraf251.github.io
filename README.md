@@ -1,5 +1,5 @@
 # Muhammad Imran Ashraf's CV
-
+<span style="color:blue">some *blue* text</span>.
 Welcome to my personal website! This site serves as a digital representation of my curriculum vitae (CV), showcasing my education, experience, skills, and projects in the field of embedded systems and engineering. 
 
 ## Objective
